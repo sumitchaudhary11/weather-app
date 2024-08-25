@@ -38,7 +38,7 @@ const SearchBar: React.FC = () => {
       item.localityName.toLowerCase().includes(inputValue.toLowerCase())
     );
     if (selectedItem) {
-      setError(null); // Clear error if search is successful
+      setError(null);
       handleSelection(selectedItem);
     } else {
       setError('Locality not found');
@@ -52,7 +52,7 @@ const SearchBar: React.FC = () => {
         itemToString={(item) => (item ? item.localityName : '')}
         onInputValueChange={(newInputValue) => {
           setInputValue(newInputValue ?? '');
-          setError(null); // Clear error when input changes
+          setError(null); 
         }}
       >
         {({
@@ -101,7 +101,7 @@ const SearchBar: React.FC = () => {
                     {item.localityName}
                   </li>
                 ))}
-              {/* Search button at the end of the suggestions list */}
+              
               {isOpen && (
                 <li className="flex justify-center p-3">
                   <button
