@@ -5,7 +5,7 @@ import Head from 'next/head';
 import { useDispatch } from 'react-redux';
 import { setWeatherData } from '../store/weatherSlice'; 
 import { AppDispatch } from '../store/store'; 
-import SearchBar from '../components/SearchBar'; // Import your SearchBar component
+import SearchBar from '../components/SearchBar';
 
 const WeatherPage: React.FC = () => {
   const router = useRouter();
@@ -84,7 +84,7 @@ const WeatherPage: React.FC = () => {
           </div>
         </div>
       ) : (
-        <p className="text-center text-lg text-gray-600">Loading...</p>
+        <p className="text-center text-lg text-gray-600">Loading... Please Wait!</p>
       )}
 
 <SearchBar /> 
