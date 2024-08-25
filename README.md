@@ -2,7 +2,7 @@
 
 ## Overview
 
-The **Weather Information Application** is a responsive web app that provides real-time weather information by city. Built using **Next.js** and **Tailwind CSS**, it offers a clean and user-friendly interface to fetch accurate weather data from the OpenWeather API.
+The **Weather Information Application** is a responsive web app that provides real-time weather information by city. Built using **Next.js** and **Tailwind CSS**, it offers a clean and user-friendly interface to fetch accurate weather data from the weatherUnion API.
 
 ## Features
 
