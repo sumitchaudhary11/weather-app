@@ -6,16 +6,16 @@ export default function Home() {
     <>
       <Head>
         <title>Google</title>
-        <link rel="icon" href="/google_favicon.ico" /> {/* Link to favicon */}
+        <link rel="icon" href="/google_favicon.ico" /> {/* Link to Google favicon */}
 
       </Head>
       <div className="flex flex-col bg-white h-screen">
-        <header className="flex justify-end p-2 text-sm text-gray-700"> {/* Reduced padding */}
+        <header className="flex justify-end p-2 text-sm text-gray-700">
           <a href="#" className="mr-4">Gmail</a>
           <a href="#" className="mr-4">Images</a>
         </header>
         
-        <main className="flex flex-col items-center justify-center flex-grow mt-[-220px]"> {/* Negative margin to reduce space */}
+        <main className="flex flex-col items-center justify-center flex-grow mt-[-220px]"> 
           <img
             src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_92x30dp.png"
             alt="Google Logo"
